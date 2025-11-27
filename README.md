@@ -38,26 +38,28 @@ Problem Statement 2: Charts Requirement
 | **Hourly Trend – Area Chart**     | Hourly engagement patterns                   |
 | **Ad Type – Matrix Table**        | Performance comparison across ad formats     |
 
-## 🚀 4. KPIs Used in Dashboard
-| KPI                                 | Meaning                          |
-| ----------------------------------- | -------------------------------- |
-| **Impressions (216K)**              | Ads displayed count              |
-| **Clicks (25.4K)**                  | User ad interactions             |
-| **Shares (1.3K)**                   | Viral engagement                 |
-| **Comments (2.6K)**                 | User sentiment                   |
-| **Purchases (1.3K)**                | Conversions                      |
-| **Engagements (29K)**               | Clicks + Shares + Comments       |
-| **CTR – 11.76%**                    | Click-through effectiveness      |
-| **Engagement Rate – 13.56%**        | Overall ad appeal                |
-| **Conversion Rate – 5.21%**         | Click → Purchase efficiency      |
-| **Purchase Rate – 0.61%**           | Impression → Purchase efficiency |
-| **Total Budget – 2.5M**             | Total spend                      |
-| **Avg Budget per Campaign – 50.7K** | Distribution of spend            |
+## 📊 Performance KPI Overview
+
+| 📌 KPI | 📖 Definition | 🧮 Formula (Conceptual) | 🎯 Purpose |
+|-------|---------------|-------------------------|-----------|
+| 👁️ **Impressions** | Number of times ads were shown | Count of `event_type = Impression` | Measure reach |
+| 👆 **Clicks** | Number of times users clicked ads | Count of `event_type = Click` | Measure engagement intent |
+| 🔁 **Shares** | Number of times ads were shared | Count of `event_type = Share` | Viral engagement |
+| 💬 **Comments** | Number of comments on ads | Count of `event_type = Comment` | User sentiment & feedback |
+| 🛒 **Purchases** | Number of purchases driven by ads | Count of `event_type = Purchase` | Conversions |
+| 🎯 **Engagements** | Total interactions | Clicks + Shares + Comments | Engagement volume |
+| 📈 **CTR** | % of impressions that became clicks | (Clicks ÷ Impressions) × 100 | Ad effectiveness |
+| 💥 **Engagement Rate** | % of impressions that became engagements | (Engagements ÷ Impressions) × 100 | Overall ad appeal |
+| 🔄 **Conversion Rate** | % of clicks that became purchases | (Purchases ÷ Clicks) × 100 | Funnel efficiency |
+| 🧾 **Purchase Rate** | % of impressions that became purchases | (Purchases ÷ Impressions) × 100 | Conversion from reach |
+| 💰 **Total Budget** | Total spend across campaigns | Σ `campaigns.total_budget` | Cost & budget analysis |
+| 📊 **Avg. Budget / Campaign** | Average budget per campaign | Total Budget ÷ Campaign Count | Budget distribution |
 
 ## 📊 5. Dashboard Pages
   A. Instagram Page
     - Displays all KPI cards, demographic visuals, geographic analysis, and performance insights.
-<img width="1273" height="731" alt="image" src="https://github.com/user-attachments/assets/c3912429-e676-4eaa-b851-f9b4d69b3fb6" />
+<img width="1271" height="730" alt="image" src="https://github.com/user-attachments/assets/cd50f909-c5c4-428d-a34b-7386933764e1" />
+
 
   B. Detailed Page
     - Transaction-level view showing event records, user info, and campaign details.
@@ -93,7 +95,7 @@ Problem Statement 2: Charts Requirement
 ## 📁 8. Download Project Files
 | File Type                | Link              |
 | ------------------------ | ----------------- |
-| 📊 Power BI Dashboard    | *([Download Dashboard](https://github.com/Prabhakar620126/Instagram_Fackbook_Dashboard/blob/main/instagram%20and%20facebook%20dashboad.pbix))* |
+| 📊 Power BI Dashboard    | *([Download Dashboard](https://github.com/Prabhakar620126/Instagram_Fackbook_Dashboard/blob/main/instagram%20and%20facebook%20dashboad.pbit)* |
 | 📄 ad_event          | *([Download](https://github.com/Prabhakar620126/Instagram_Fackbook_Dashboard/blob/main/ad_events.csv))* |
 | 📄 ads      | *([Download](https://github.com/Prabhakar620126/Instagram_Fackbook_Dashboard/blob/main/ads.csv))* |
 | 📄 Campaigns    | *([Download](https://github.com/Prabhakar620126/Instagram_Fackbook_Dashboard/blob/main/campaigns.csv))* |
